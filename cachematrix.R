@@ -5,6 +5,7 @@
 ## This function can set the variable with inverse of a Matrix passed
 makeCacheMatrix <- function(x = matrix()) 
 {
+        ##variable to hold inverse matrix
         invM = NULL
         
         set = function(y)
